@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <EditText
+        android:id="@+id/cad_convidado_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textCapWords"
+        android:hint="Nome"/>
+
+    <EditText
+        android:id="@+id/cad_convidado_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="phone"
+        android:hint="Telefone"/>
+
+    <EditText
+        android:id="@+id/cad_convidado_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/cad_convidado_acompanhantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        android:hint="Quantidade de acompanhantes"/>
+
+    <Button
+        android:id="@+id/bt_salvar_convidado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="Salvar" />
+
+</LinearLayout>
